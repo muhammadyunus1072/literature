@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.swiper-pagination-bullet {
+    @apply bg-[#73777B]
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-[#907FA4];
+    /* @apply w-[30px] h-[2px] my-2 block bg-[#EDEDD0]; */
+}
+
+.hamburger-active > span:nth-child(1){
+    @apply rotate-45 bg-[#EDEDD0];
+}
+
+.hamburger-active > span:nth-child(2){
+    @apply scale-0 bg-[#EDEDD0];
+}
+
+.hamburger-active > span:nth-child(3){
+    @apply -rotate-45 bg-[#EDEDD0];
+}
+.hamburger-line-index {
+    @apply w-[30px] h-[2px] my-2 block bg-[#EDEDD0];
+    /* @apply w-[30px] h-[2px] my-2 block bg-[#EDEDD0]; */
+}
+
+.hamburger-active-index > span:nth-child(1){
+    @apply rotate-45 bg-[#EDEDD0];
+}
+
+.hamburger-active-index > span:nth-child(2){
+    @apply scale-0 bg-[#EDEDD0];
+}
+
+.hamburger-active-index > span:nth-child(3){
+    @apply -rotate-45 bg-[#EDEDD0];
+}
+.hamburger-line-detail {
+    @apply w-[30px] h-[2px] my-2 block bg-[#907FA4];
+    /* @apply w-[30px] h-[2px] my-2 block bg-[#EDEDD0]; */
+}
+
+.hamburger-detail-active > span:nth-child(1){
+    @apply rotate-45 bg-[#907FA4];
+}
+
+.hamburger-detail-active > span:nth-child(2){
+    @apply scale-0 bg-[#907FA4];
+}
+
+.hamburger-detail-active > span:nth-child(3){
+    @apply -rotate-45 bg-[#907FA4];
+}
